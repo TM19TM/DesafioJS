@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(45deg, red, blue, red);
+    background-size: 400% 400%;
+    font: normal 15pt Arial;
+    animation: colors 5s ease infinite;
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    background: linear-gradient(75deg, blue, red, blue);
+    background-size: 400% 400%;
+    animation: colors 5s ease infinite;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.432);
+    color:white
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
